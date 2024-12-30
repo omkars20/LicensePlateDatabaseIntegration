@@ -7,11 +7,11 @@ git clone https://github.com/THU-MIG/yolov10.git
 ```
 
 ```bash
-conda create -n cvproj python=3.11 -y
+python3 -m venv venv
 ```
 
 ```bash
-conda activate cvproj
+source venv/bin/activate
 ```
 
 ```bash
@@ -36,19 +36,7 @@ python sqldb.py
 
 ```bash
 python main.py
-```
-
-## Error Fixed
-
-```bash
-pip uninstall numpy
-```
-
-```bash
-pip install numpy==1.26.4
-```
-
-
+`
 ### sqlite viewer:
 
 https://inloop.github.io/sqlite-viewer/
