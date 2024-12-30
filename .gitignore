@@ -1,0 +1,43 @@
+# Ignore all compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment
+yolo-venv/
+
+# Ignore database files
+*.db
+
+# Ignore data files (e.g., datasets, results)
+data/
+result_compressed.mp4
+
+# Ignore weights or model files
+weights/
+
+# Ignore JSON files
+*.json
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore any files with specific extensions (e.g., large binaries)
+*.tar
+*.zip
+*.gz
+
+# Allow important project files
+!main.py
+!requirements.txt
+!README.md
+
